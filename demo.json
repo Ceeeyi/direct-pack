@@ -1,0 +1,11 @@
+{
+  "schema": "PACKING-TRIAL-1",
+  "mode": "ordinary",
+  "require_all": true,
+  "parameters": {"L": 2000, "W": 1000, "H": 900, "payload": 500, "fb": 10, "lr": 10, "util": 0.8, "height_check": true},
+  "items": [
+    {"id": "DEMO-A", "l": 1000, "w": 1000, "h": 400, "m": 100, "allowed": [0]},
+    {"id": "DEMO-B", "l": 1000, "w": 1000, "h": 400, "m": 100, "allowed": [0]}
+  ],
+  "search": {"repair_rounds": 1, "repair_options": 2, "attempt_reserve": 2}
+}
